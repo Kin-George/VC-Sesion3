@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Sesion 3</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/a11y-light.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2 class="titulos" style="font-size:38px"> Viernes de Código </h1>
+					<h2 style="font-size:35px"> Análisis de datos con python </h2>
+					<h2 style="font-size:35px"> Universidad del Norte - Departamento de Economía</h2>
+					<h3 style="font-size:30px"> Jorge Mario Orozco Thomas </h3>
+					<h3 style="font-size:30px"> Sesión 3: Condicionales, Bucles y operadores </h3>
+					<h4 style="font-size:30px"> Marzo de 2023 </h4>
+				</section>
+
+				<section data-auto-animate data-transition="convex">
+					<h1 style="font-size:60px">Programación</h1>
+					<ul style="list-style-type:'🎮'">
+						<li>Asistencia y registro</li>
+						<li>Operadores</li>
+						<li>Ciclos</li>
+						<li>Funciones</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2 style="font-size:40px">Asistencia</h2>
+					<a href="https://forms.gle/1pnp93CQtsNW5tyh7" target="_blank">Asistencia</a>
+					<br>
+					<a href="https://discord.gg/XVSf4xzv" target="_blank">Grupo de Discord</a>
+					<br>
+					<a href="https://github.com/Kin-George/Viernes-de-Codigo" target="_blank">Material</a>
+				</section>
+
+				<section data-auto-animate data-transition="convex">
+					<h2>Operadores</h2>
+					<ul style="list-style-type:'😎'">
+						<li>Tipos de operadores</li>
+					</ul>
+				</section>
+
+				<section data-auto-animate>
+					<h2>Operadores</h2>
+					<ul style="list-style-type:'😎'">
+						<li>Tipos de operadores & Condicionales</li>
+							<ul style="list-style-type:'🐱‍👤'">
+								<li>Operadores de asignación</li>
+								<li>Operadores de comparación</li>
+							</ul>
+							<ul style="list-style-type:'🐱‍👤'">
+								<li>Sentencias Condicionales</li>
+								<li>Operadores lógicos</li>
+								<li>Operadores de pertenencia</li>
+							</ul>
+					</ul>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">Operadores de asignación</h2>
+					<p style="text-align: justify;">Son una manera efectiva de realizar una operación y almacenar su resultado en la variable inicial.</p>
+					<pre> <code data-trim data-noescape data-line-numbers="1-2|3|4|5|6">
+						# Operador de asignacion
+						"=" # Asigna un valor a una variable.
+						"+=" # asigna un valor de suma a una variable.
+						"-=" # asigna un valor de resta a una variable.
+						"*=" # asigna un valor de multiplicacion a una variable.
+						"/=" # asigna un valor de division a una variable.
+					</code></pre>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">Operadores de comparación</h2>
+					<p style="text-align: justify;">Se utilizan para comparar dos o más valores.</p>
+					<pre> <code data-trim data-noescape data-line-numbers="1-2|3|4|5|6|7">
+						# Operador de comparación
+						> # Mayor que:
+						>= # Mayor o igual que:
+						< # Menor que:
+						<= #Menor o igual que:
+						== # Igual: 
+						!= # Distinto:
+					</code></pre>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">Condicionales</h2>
+					<p style="text-align: justify;">Son sentencias para establecer caminos condicionales en python: que se ejecute el codigo DADO el cumplimiento de una condición establecida.</p>
+					<pre> <code data-trim data-noescape data-line-numbers="1-2|3|4">
+						# Condicionales
+						if # Sentencia condicional "si"
+						elif # Sentencia condicional "Altenartiva"
+						else # Sentencia condicional "sino"
+					</code></pre>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">Operadores lógicos</h2>
+					<p style="text-align: justify;"> Permiten realizar operaciones lógicas. </p>
+					<pre> <code data-trim data-noescape data-line-numbers="1-3|4-5|6-7">
+						# Operadores lógicos
+						"or" # Se evaluan dos opciones,
+							# Si la primera es falsa, se escoge la segunda.
+						"and" # Se evaluan dos opciones, 
+							# solo se evalua la segunda si la primera es verdadera.
+						"not" # Se evalua si el valor no esta,
+								# si no esta es True, si si esta, es False.
+					</code></pre>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">Operadores de pertenencia</h2>
+					<p style="text-align: justify;"> Permiten comprobar si un valor o variable se encuentra en una estructura de datos.</p>
+					<pre> <code data-trim data-noescape data-line-numbers="1-2|3">
+						# Operadores de pertenencia
+						"in"
+						"not in"
+					</code></pre>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">Ciclos o Bucles</h2>
+					<p style="text-align: justify;"> Permiten repetir instrucciones tantas veces como queramos.</p>
+					<pre> <code data-trim data-noescape data-line-numbers="1-2|3">
+						# Bucles
+						"while"
+						"for"
+					</code></pre>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">Funciones</h2>
+					<p style="text-align: justify;"> Permiten crear una funcion propia en python para poder acceder a ella cuando queramos.</p>
+					<pre> <code data-trim data-noescape data-line-numbers="1-2|3">
+						# Funciones
+						def funcionEgo():
+							print("Soy el mejor programador")
+					</code></pre>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
